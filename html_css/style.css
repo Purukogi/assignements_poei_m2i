@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 10px 15px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.liens {
+    margin-top: 30px;
+}
+
+header a {
+    color: blue;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.avatar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.group_title {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    text-align: justify;    
+}
+
+.autre_infos {
+    margin-left: 20px;
+}
+
+.compte {
+    padding-left: 10px;
+}
+
+.info_persos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.colone_info {
+    margin: auto;
+    text-align: right;
+}
+
+.colone_info div {
+    margin-top: 5px;
+}
+
+.colone_info input[type="date"] {
+    width: 165px;
+}
+
+.colone_info select {
+    width: 170px;
+    text-align: center;
+}
+
+.boutons_newsletter {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    text-align: right;
+}
+
+.boxed_cell {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.validation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.validation input{
+    box-shadow: 2px 2px 4px black;
+    margin-left: 10px;
+}

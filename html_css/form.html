@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Music</title>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="images/wave.jpg" alt="logo" height="100"></a>
+        <h1>My Music</h1>
+    </div>
+    <div class="avatar">
+        <img src="images/avatar.jpg" alt="avatar" height="100">
+        <div class="liens">
+            <p>
+                Denis Machin, connecté
+            </p>
+            <a href="form.html">Mon compte</a>
+            <a href="">Déconnecter</a>
+        </div>
+    </div>
+</header>
+
+
+    <hr>
+    <main>
+        <p class="compte">
+            Mon compte
+        </p>
+        <div>
+            <form method="get" action="">
+                <fieldset class="info_persos">
+                    <legend>
+                        Vos informations personnelles
+                    </legend>                    
+                    <div class="colone_info">
+                        <div>
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" placeholder="votre nom ?">
+                        </div>
+                        <div>
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="votre prénom ?">
+                        </div>
+                        <div>
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="email" placeholder="votre email ?">
+                        </div>
+                        <div>
+                            <label for="mdp">Mot de passe :</label>
+                            <input type="password" id="mdp" name="mdp" placeholder="votre mot de passe ?">
+                        </div>
+                    </div>
+                    <div class="colone_info">
+                        <div>
+                            <label for="naissance">Date de naissance :</label>
+                            <input type="date" id="naissance" name="naissance" placeholder="jj/mm/aaaa">
+                        </div>
+                        <div>
+                            <label for="groupe">Groupe préféré :</label>
+                            <select type="" id="groupe" name="groupe" size="1">
+                                <option value="bts">BTS</option>
+                                <option value="tears">Tears For Fears</option>
+                                <option value="hilltop">Hilltop Hoods</option>
+                                <option value="sky">Blue Sky Black Death</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="telephone">Téléphone :</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="votre téléphone ?">
+                        </div>
+                        <div>
+                            <label for="mdp_repeat">Répéter le mot de passe :</label>
+                            <input type="password" id="mdp_repeat" name="mdp_repeat" placeholder="votre mot de passe ?">
+                        </div>
+                    </div>                    
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Votre formule abonnement
+                    </legend>
+
+                    <div>
+                        <table>
+                            <thead>
+                                <th></th>
+                                <th>
+                                    <input type="radio" id="premium_plus" name="abonnement" value="premium_plus">
+                                    <label for="premium_plus">Premium +</label>
+                                </th>
+                                <th>
+                                    <input type="radio" id="premium" name="abonnement" value="premium">
+                                    <label for="premium">Premium</label>
+                                </th>
+                                <th>
+                                    <input type="radio" id="discovery" name="abonnement" value="discovery">
+                                <label for="discovery">Discovery</label>
+                                </th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Accès mobile</td>
+                                    <td class="boxed_cell"><img src="images/check.png" alt="oui" height="40"></td>
+                                    <td class="boxed_cell"><img src="images/check.png" alt="oui" height="40"></td>
+                                    <td class="boxed_cell"><img src="images/check.png" alt="oui" height="40"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Accès web
+                                    </td>
+                                    <td class="boxed_cell">
+                                        <img src="images/check.png" alt="oui" height="40">
+                                    </td>
+                                    <td class="boxed_cell">
+                                        <img src="images/check.png" alt="oui" height="40">
+                                    </td>
+                                    <td class="boxed_cell">
+                                        <img src="images/croix.png" alt="non" height="25">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Ecoute illimitée
+                                    </td>
+                                    <td class="boxed_cell"><img src="images/check.png" alt="oui" height="40">
+                                    </td>
+                                    <td class="boxed_cell">
+                                        <img src="images/croix.png" alt="non" height="25">
+                                    </td>
+                                    <td class="boxed_cell">
+                                        <img src="images/croix.png" alt="non" height="25">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tarifs</td>
+                                    <td class="boxed_cell">11.99€/mois</td>
+                                    <td class="boxed_cell">5.99€/mois</td>
+                                    <td class="boxed_cell">Gratuit 1 mois</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>                   
+                    <div class="boutons_newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Recevoir nos newsletters</label>
+                        <input type="checkbox" id="newsletter_partner" name="newsletter_partner">
+                        <label for="newsletter_partner">Recevoir les newsletters de nos partenaires</label>
+                    </div>
+                </fieldset>
+                <div class="validation">
+                    <input type="reset" name="reset" id="reset" value="Annuler">
+                    <input type="submit" name="valider" id="valider" value="Valider">
+                </div>
+            </form>
+        </div>       
+    </main>
+
+</body>
+
+</html>

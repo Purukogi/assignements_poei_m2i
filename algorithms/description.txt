@@ -1,6 +1,8 @@
-Some of the exercises we did to learn algorithms.
+Some of the exercises we did to learn algorithms. All algorithms are written in Java, as it is the main language we are going to learn.
 
 Printing the n-th row of Pascal's triangle.
+
+Some guessing games: guess the number and rock, paper, scissors.
 
 Encoding a String using an encoding matrix and a key.
 
