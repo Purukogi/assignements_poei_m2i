@@ -1,0 +1,10 @@
+Some of the exercises we did to learn algorithms.
+
+Printing the n-th row of Pascal's triangle.
+
+Encoding a String using an encoding matrix and a key.
+
+Chained list of integers to generalise the concept of arrays using recursive programming.
+
+
+
