@@ -31,8 +31,7 @@ function addNote(){
     noteToAdd.appendChild(cancelButtonToAdd);
     noteToAdd.appendChild(bodyToAdd);     
 
-    noteToAdd.style.backgroundColor = noteColour_elem.value;
-    //noteToAdd.style.width = "45%";    
+    noteToAdd.style.backgroundColor = noteColour_elem.value;       
     
     noteArea_elem.appendChild(noteToAdd);
 
