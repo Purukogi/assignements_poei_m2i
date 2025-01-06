@@ -5,3 +5,5 @@ Some exercises we did include:
 - a random colour generator
 
 - a page to create a to-do list with sticky notes vibes
+
+- a game of snake
