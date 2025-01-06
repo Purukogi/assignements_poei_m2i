@@ -167,7 +167,7 @@ function selfIntersect() {
     let isTouching = false;
 
     snakeBody.forEach( (piece) => {
-        isTouching = headX === piece.xPos && headY === piece.yPos
+        isTouching |= headX === piece.xPos && headY === piece.yPos
     });
 
 
