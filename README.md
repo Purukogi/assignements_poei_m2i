@@ -4,3 +4,4 @@ Repository of a selection of assignements for the 2024 M2i classes I followed. I
 - algorithms
 - html_css
 - javascript
+- intro to java

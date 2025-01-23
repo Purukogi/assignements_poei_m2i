@@ -1,0 +1,5 @@
+A few exercises from the intro to Object Oriented Programming with JAVA class
+
+- a bike shop simulation where one can rent a variety of two wheels vehicles
+
+- a little procedurally generated dungeon delver game (sorry for the state of my GUI)
