@@ -14,7 +14,7 @@ public class ComposantDAO {
 
         try {
 
-            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://PC_MATERIEL_NET;databasename=DB_MATERIEL;username=Purukogi;password=purukogi;trustservercertificate=true");
+            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://localhost;databasename=[DB];username=[USERNAME];password=[PASSWORD];trustservercertificate=true");
 
             if(! cnx.isClosed()){
 
@@ -40,7 +40,7 @@ public class ComposantDAO {
     public void insert(Composant composant) {
         try {
 
-            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://PC_MATERIEL_NET;databasename=DB_MATERIEL;username=Purukogi;password=purukogi;trustservercertificate=true");
+            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://localhost;databasename=[DB];username=[USERNAME];password=[PASSWORD];trustservercertificate=true");
 
             if(! cnx.isClosed()){
 
@@ -70,7 +70,7 @@ public class ComposantDAO {
 
         try {
 
-            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://PC_MATERIEL_NET;databasename=DB_MATERIEL;username=Purukogi;password=purukogi;trustservercertificate=true");
+            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://localhost;databasename=[DB];username=[USERNAME];password=[PASSWORD];trustservercertificate=true");
 
             if(! cnx.isClosed()){
 
@@ -94,7 +94,7 @@ public class ComposantDAO {
 
     public void delete(int id){
         try {
-            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://PC_MATERIEL_NET;databasename=DB_MATERIEL;username=Purukogi;password=purukogi;trustservercertificate=true");
+            Connection cnx = DriverManager.getConnection("jdbc:sqlserver://localhost;databasename=[DB];username=[USERNAME];password=[PASSWORD];trustservercertificate=true");
 
             if (!cnx.isClosed()) {
                 PreparedStatement ps = cnx.prepareStatement("DELETE FROM composants WHERE id=?");
