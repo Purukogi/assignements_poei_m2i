@@ -1,0 +1,1 @@
+This is the beginning of us introducing databases to our projects. This is a simple exercise of managing a list of IT components.
