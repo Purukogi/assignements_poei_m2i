@@ -5,9 +5,9 @@
 		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
 		type="javax.sql.DataSource"
 		
-		url="jdbc:sqlserver://Ouessant-05;databasename=MY_FIRST_DB;trustservercertificate=true"
-		username="purukogi"
-		password="purukogi"
+		url="jdbc:sqlserver://[DB_URL];databasename=[DB_NAME];trustservercertificate=true"
+		username="[USERNAME]"
+		password="[PASSWORD]"
 		
 		maxTotal="100"
 		maxIdle="30"
