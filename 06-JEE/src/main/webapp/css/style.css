@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#links, #connected_as{
+	display: flex;
+    justify-content: space-between;
+}

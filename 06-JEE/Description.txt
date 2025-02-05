@@ -1,0 +1,2 @@
+An app that allows for storing and editing contacts.
+We implemented a way to force user connection using filters and we encrypted the passwords in the database.

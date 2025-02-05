@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="f" uri="jakarta.tags.functions" %>
+<header>
+	<div>
+		<h1>${f:replace(pageContext.request.contextPath,'/', '') } 2025©</h1>
+		<div id="links">
+			<a href="Index">Return to home page</a>
+			<p>Connected as ${user.username } <a href="Disconnect">(Disconnect)</a></p>		
+		</div>		
+	</div>
+</header>

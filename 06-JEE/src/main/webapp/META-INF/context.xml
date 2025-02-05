@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="admin"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		type="javax.sql.DataSource"
+		
+		url="jdbc:sqlserver://Ouessant-05;databasename=MY_FIRST_DB;trustservercertificate=true"
+		username="purukogi"
+		password="purukogi"
+		
+		maxTotal="100"
+		maxIdle="30"
+		maxWaitMillis="10000"
+	/>
+</Context>

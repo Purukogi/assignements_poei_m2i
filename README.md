@@ -6,3 +6,4 @@ Repository of a selection of assignements for the 2024 M2i classes I followed. I
 - javascript
 - intro to java
 - introduction to Databases with SQL
+- intro to JEE
