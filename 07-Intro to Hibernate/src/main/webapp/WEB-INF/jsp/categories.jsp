@@ -14,18 +14,18 @@
     <main>
         <div>
             <h2>Managing categories</h2>
-            <table>
+            <table id="category_table">
                 <thead>
 				<tr>
-					<th>Id</th>
-					<th>Category Name</th>
+					<th class="category_id_cell">Id</th>
+					<th class="category_name_cell">Category Name</th>
+					<th> </th>
 				</tr>
 				</thead>
 				<c:forEach var="category" items="${categories }">
 					<tr>
-						<td>${category.id }</td>
-						<td><!-- <a href="UpdateCategory?category_id=${category.id }"><img alt="edit button" src="img/edit.jpg" class="edit"></a> -->
-						 
+						<td class="category_id_cell">${category.id }</td>
+						<td class="category_name_cell">						 
 						<form action="UpdateCategory" method="GET">			
 							<input type="hidden" name="category_id" value="${category.id }">
 							<input type="text" name="category" value="${category.categoryName }">

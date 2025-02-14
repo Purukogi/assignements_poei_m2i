@@ -11,9 +11,9 @@
 	
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost;databasename=[DB_NAME];trustservercertificate=true" />
-			<property name="javax.persistence.jdbc.user" value="[USER_NAME]" />
-			<property name="javax.persistence.jdbc.password" value="[PASSWORD]" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost;databasename=MOVIE_LIBRARY;trustservercertificate=true" />
+			<property name="javax.persistence.jdbc.user" value="purukogi" />
+			<property name="javax.persistence.jdbc.password" value="purukogi" />
 
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />

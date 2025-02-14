@@ -13,41 +13,57 @@
 	<%@include file="fragments/header.jspf" %>
     <main>
         <h2>Your Movie</h2>
-        <div>
+        <div class="movie_form">
                 <div>
                     <label for="title">Title: </label>
+                </div>
+                <div>
                     <input type="text" name="title" id="title" value="${movie.title }" disabled>
                 </div>
                 <div>
                     <label for="release">Release year: </label>
+                </div>
+                <div>
                     <input type="text" name="release" id="release" value="${movie.releaseDate }" disabled>
                 </div>
                 <div>
                     <label for="category">Category: </label>
+                </div>
+                <div>
                     <input type="text" name="category" id="category" value="${movie.category.categoryName }" disabled>
                 </div>
                 <div>
                     <label for="director">Director: </label>
+                </div>
+                <div>
                     <input type="text" name="director_first_name" id="director" value="${movie.director.firstName }" disabled>
                     <input type="text" name="director_last_name" value="${movie.director.lastName }" disabled>
                 </div>
                 <div>
                     <label for="duration">Duration: </label>
+                </div>
+                <div>
                     <input type="text" name="duration" id="duration" value="${movie.duration }" disabled>
                 </div>
                 <div>
                     <label for="seen">Seen: </label>
+                </div>
+                <div>
                     <input type="text" name="seen" id="seen" value="${movie.seen? "Yes" : "No" }" disabled>
                 </div>
                 <c:forEach var="actor" items="${movie.actors }" varStatus="status">
 					<div>
 						<label for="actor${status.index }">Actor ${status.index + 1 }</label>
+					</div>
+                	<div>
 						<input type="text" id="actor${status.index }" value="${actor.firstName }" disabled>
 						<input type="text" value="${actor.lastName }" disabled>
 					</div>
 				</c:forEach>
                 <div>
                     <label for="synopsis">Synopsis: </label>
+                </div>
+                <div>
                     <textarea name="synopsis" id="synopsis" disabled>${movie.synopsis }</textarea>
                 </div>
         </div>

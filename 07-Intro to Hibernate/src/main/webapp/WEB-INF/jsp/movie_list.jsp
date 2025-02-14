@@ -10,8 +10,9 @@
 </head>
 <body>
 	<%@include file="fragments/header.jspf" %>
+	<main>
 	<h2>Movie List</h2>
-	<table>
+	<table id="movie_table">
 		<thead>
 			<tr>
 				<th>Title</th>
@@ -20,6 +21,8 @@
 				<th>Director</th>
 				<th>Duration</th>
 				<th>Seen</th>
+				<th> </th>
+				<th> </th>
 			</tr>
 		</thead>
 		<c:forEach var="movie" items="${movies }">
@@ -35,5 +38,6 @@
 			</tr>
 		</c:forEach>
 	</table>
+	</main>
 </body>
 </html>
