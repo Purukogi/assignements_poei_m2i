@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<header>
+        <div id="reels">
+            <img alt="picture of a movie reel" src="img/movie_reel.jpg">
+            <img alt="picture of a movie reel" src="img/movie_reel.jpg">          
+        </div>
+    
+        <div id="navigation">
+            <div class="navigation_option">
+                <a href="Index">Home</a>
+            </div>
+            <div class="navigation_option">
+                <a href="MovieList">List of movies</a>
+            </div>
+            <div class="navigation_option">
+                <a href="AddMovie">Add a movie</a>
+            </div>
+            <div class="navigation_option">
+                <a href="Categories">Categories</a>
+            </div>
+            <div class="navigation_option">
+                <a href="About">About us</a>
+            </div>
+        </div>
+</header>

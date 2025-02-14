@@ -1,0 +1,2 @@
+This is a little movie library project we did using Hibernate.
+Forgive the horrible CSS, I didn't have time to finish it before moving on to the next lessons.

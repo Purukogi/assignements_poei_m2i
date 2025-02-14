@@ -1,0 +1,97 @@
+* {
+	margin:0;
+}
+
+header {
+	height:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+#reels{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#reels img {
+	height: 20px;
+}
+
+#navigation {
+	height:100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.navigation_option {
+	height: 100%;
+	width: 100px;
+	border: solid 1px grey;
+	text-align: center;
+}
+
+.navigation_option a{
+	margin-top: 10px;
+}
+
+h1 {
+    color: grey;
+}
+
+h1 span {
+    color: black;
+    font-size: xxx-large;
+}
+
+h2 {
+	margin-top: 15px;
+    color: blue;
+}
+
+p {
+	margin-top: 10px;
+}
+
+#learn_button{
+	margin-top: 20px;
+}
+
+#index_content, #about_content{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+#index_content button, input[type=submit] {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    border-radius: 3px;
+    padding:5px;
+}
+
+table{
+	margin-top: 15px;
+}
+
+thead {
+    text-align: left;
+}
+
+.edit_delete{
+	height: 30px;
+}
+
+.edit_button{
+	height:20px;
+}
