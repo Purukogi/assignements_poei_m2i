@@ -20,4 +20,4 @@ On top of that we did a project that covered everything we did during the classe
 
 All three of these applications shared a SQL Server database. The scripts folder contains the scripts we used to create and populate it.
 
-You'll find in the project folder a document detailing the making of the project (in French).
+You'll find in the project folder a document detailing the making of the project (in French), as well as the slides I used for the oral exam at the end of the classes.
