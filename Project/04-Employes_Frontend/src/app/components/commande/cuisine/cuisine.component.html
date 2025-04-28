@@ -1,1 +1,29 @@
-<p>cuisine works!</p>
+<div class="container d-flex flex-column align-items-center justify-content-start min-vh-50 mt-4">
+    <div *ngIf="commandesEnCuisine.length > 0; else noCommandes" class="w-100 d-flex flex-column align-items-center gap-4">
+        <app-commande-cuisine
+          *ngFor="let commande of commandesEnCuisine"
+          [commande]="commande"
+          (ouvrirPopup)="ouvrirPopup($event)">
+        </app-commande-cuisine>
+    </div>
+  
+    <ng-template #noCommandes>
+      <p class="text-center text-muted">Aucune commande en cuisine pour le moment.</p>
+    </ng-template>
+  </div>
+
+<!-- Modal changement de statut -->
+<div class="modal fade" tabindex="-1" id="popupStatut" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content custom-modal">
+      <div class="modal-body  text-center">
+        <p class="mb-4">Voulez-vous passer la commande #{{ commandeSelectionnee }} à <strong>"Prête"</strong> ?</p>
+        <div class="d-flex justify-content-center gap-3">
+          <button class="btn btn-vert" (click)="changerStatut()">Confirmer</button>
+          <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
