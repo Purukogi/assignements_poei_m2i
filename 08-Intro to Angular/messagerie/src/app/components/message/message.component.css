@@ -1,0 +1,16 @@
+.message_card {
+    padding:10px;
+    margin: 5px;
+    background-color: rgb(176, 215, 248);
+    border-radius: 5px;
+    max-width: 75%;
+}
+
+.message_card p {
+    color: black;
+}
+
+.your_message{
+    margin-left: 25%;
+    background-color: rgb(222, 248, 160);
+}

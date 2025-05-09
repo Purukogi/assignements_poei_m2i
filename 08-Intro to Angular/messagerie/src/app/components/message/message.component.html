@@ -1,0 +1,4 @@
+<div class="message_card" [ngClass]="{'your_message' : isYourMessage()}">
+    <p>{{message?.author}} ({{message?.date | date : "yyyy/MM/dd - HH:mm"}})</p>
+    <p>{{message?.content}}</p>
+</div>

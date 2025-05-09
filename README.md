@@ -8,6 +8,7 @@ Repository of a selection of assignements for the 2024 M2i classes I followed. I
 - introduction to Databases with SQL
 - intro to JEE
 - intro to Hibernate
+- intro to Angular
 - Java Spring and Webservices (see Project)
 - Angular (see Project)
 - Flutter (TODO: add the flutter exercises)

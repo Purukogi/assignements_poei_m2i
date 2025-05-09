@@ -1,0 +1,14 @@
+<div class="login_container">
+    <h2>Login</h2>
+    <p>{{ message }}</p>
+    <div>
+        <label for="username">Username: </label>
+        <input id="username" type="text" [(ngModel)]="username">
+    </div>
+    <div>
+        <label for="password">Password: </label>
+        <input id="password" type="password" [(ngModel)]="password">
+    </div>
+    <button (click)="login()">Log in</button>
+    <a [routerLink]="['/register']">Create an account!</a>
+</div>

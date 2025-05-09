@@ -1,0 +1,10 @@
+.empty {
+    text-align: center;
+}
+
+.message_board {
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 75vh;
+    overflow-y: scroll;
+}

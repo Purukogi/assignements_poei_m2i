@@ -22,8 +22,6 @@ function addNote(){
     cancelButtonToAdd.src = "images/close.png";
     cancelButtonToAdd.addEventListener("click", deleteNote);
 
-    console.log(noteTitle_elem.value);
-    console.log(noteBody_elem.value);
     titleToAdd.innerText = noteTitle_elem.value;
     bodyToAdd.innerText = noteBody_elem.value;
 

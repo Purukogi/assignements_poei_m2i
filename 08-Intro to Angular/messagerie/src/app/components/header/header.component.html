@@ -1,0 +1,10 @@
+<div id="header_container">
+    <div>
+        <a [routerLink]="['/login']" *ngIf="!isUserConnected()">Log in</a>
+        <p *ngIf="isUserConnected()">Hello {{ getUsername() }}</p>
+    </div>
+    <a [routerLink]="['/messageboard']"><h1>Message Board</h1></a>
+    <div class="disconnect_button">
+        <a (click)="disconnect()" *ngIf="isUserConnected()">Disconnect</a>
+    </div>
+</div>

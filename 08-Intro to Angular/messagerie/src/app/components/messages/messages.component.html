@@ -1,0 +1,4 @@
+<div class="message_board" >
+    <p class="empty" *ngIf="messages?.length == 0">No message</p>
+    <app-message *ngFor="let message of messages" [message] = "message"></app-message>
+</div>

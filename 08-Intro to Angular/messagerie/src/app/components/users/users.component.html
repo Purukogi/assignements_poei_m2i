@@ -1,0 +1,6 @@
+<h2>Users</h2>
+
+<p *ngIf="users.length == 0">No one's here</p>
+<ul>
+   <li *ngFor="let user of users">{{ user }}</li> 
+</ul>

@@ -1,0 +1,2 @@
+A chatroom app made using Angular.
+The backend runs on a NodeJS server that provides webservices and stores data.

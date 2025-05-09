@@ -1,0 +1,18 @@
+#container {
+    height: calc(100vh - 46px);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #171c18;
+}
+
+#messages_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 1fr;
+}
+
+app-users {
+    display: block;
+    border: solid 1px black;
+}
+
